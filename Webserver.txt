@@ -1,0 +1,9 @@
+In AWS linux console 
+
+sudo su - = To change into root user
+yum update -y  = To update the AWS linux system
+yum install -y httpd - To install httpd webserver
+systemctl status httpd = To check status of httpd server
+wget link(file name complex) = to download the source 
+cd complex 
+mv * /var/www/html/ = to move all files to this location
